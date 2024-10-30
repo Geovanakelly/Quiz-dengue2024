@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ffe6; /* Fundo em verde claro */
+    color: #004d00; /* Texto em verde escuro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    transition: opacity 0.5s ease;
+}
+
+.answer {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #b3ffb3; /* Verde claro */
+    border: 1px solid #004d00;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.answer:hover {
+    background-color: #99ff99; /* Verde mais claro ao passar o mouse */
+}
+
+.correct {
+    background-color: #4caf50; /* Verde para resposta correta */
+    color: white;
+}
+
+.wrong {
+    background-color: #f44336; /* Vermelho para resposta errada */
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
